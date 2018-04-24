@@ -1,16 +1,10 @@
 package Parser.NonTerminals.Statement;
 
 import Parser.NonTerminals.Node;
-import Parser.NonTerminals.Token;
 
 import java.util.ArrayList;
 
-public class WhileStatement extends Statement {
-
-    public  WhileStatement()
-    {
-        super();
-    }
+public class WhileStatement extends Node {
 
     @Override
     public String getValue() {

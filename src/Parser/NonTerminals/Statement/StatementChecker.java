@@ -5,17 +5,22 @@ import Parser.NonTerminals.Node;
 import java.util.ArrayList;
 
 public class StatementChecker extends Node {
-    Statement statement;
+    Node statement;
 
 
     @Override
     public String getValue() {
-        return statement.getValue();
+        System.out.println("tabs " +tabs);
+        statement.setTabs(tabs);
+        return statement.getValue()+"";
     }
 
     @Override
     public int matches(ArrayList<Node> tokens) {
         switch (tokens.get(0).getType()) {
+            case "< LEFT_CURLY_B >":
+                statement = new ScopeStatement();
+                break;
             case "< IF >":
                 statement = new IfStatement();
                 break;

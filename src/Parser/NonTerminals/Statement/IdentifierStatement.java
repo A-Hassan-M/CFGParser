@@ -1,11 +1,10 @@
 package Parser.NonTerminals.Statement;
 
 import Parser.NonTerminals.Node;
-import Parser.NonTerminals.Token;
 
 import java.util.ArrayList;
 
-public class IdentifierStatement extends Statement {
+public class IdentifierStatement extends Node {
 
     @Override
     public String getValue() {

@@ -10,7 +10,7 @@ public class Expression extends Node{
 
     @Override
     public int matches(ArrayList<Node> tokens) {
-        return 0;
+        return 1;
     }
 
 }

@@ -1,15 +1,10 @@
 package Parser.NonTerminals.Statement;
 
 import Parser.NonTerminals.Node;
-import Parser.NonTerminals.Token;
 
 import java.util.ArrayList;
 
-public class PrintStatement extends Statement {
-
-    public PrintStatement() {
-        super();
-    }
+public class PrintStatement extends Node {
 
     @Override
     public String getValue() {

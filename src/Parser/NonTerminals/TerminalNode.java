@@ -10,7 +10,7 @@ public class TerminalNode extends Node {
 
     @Override
     public String getValue() {
-        return this.value;
+        return this.value + " ";
     }
 
     @Override
