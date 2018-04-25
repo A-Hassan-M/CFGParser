@@ -1,11 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="854b01de-3352-46ee-981e-fad8c30e88c5" name="Default" comment="">
+    <list default="true" id="65600f84-b89c-4fbc-83ee-e9675b9fc2ab" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.classpath" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.project" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/CommaTypeIdentifiers.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/Expression/ExpBiginning.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/Expression/Expression.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/Expression/ParenthesesExpression.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/ExpressionStructure/ExpressionStructureChecker.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/HeapDeclaration/HeapDeclarationChecker.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Tokenizer/MyMap.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Tokenizer/Regexer.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Tokenizer/Tag.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/CommaTypeIdentifiers.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/StatementExpression/StatementExpressionChecker.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/CommaTypeIdentifiers.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/StatementExpression/StatementExpressionChecker.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/Main.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/Main.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/AdditionalExpressionArguments.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/AdditionalExpressionArguments.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/AdditionalTypeIdentifiers.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/ArrayBrackets.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/ArrayBrackets.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/ClassDeclaration.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/ClassDeclaration.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/ClassMembers/ClassMembers.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/ClassMembers/ClassMembers.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/ClassMembers/IdentifierMember.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/ClassMembers/IdentifierMember.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/ClassesDeclaration.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/ClassesDeclaration.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/ConstructorDeclaration.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/ConstructorDeclaration.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/ConstructorsDeclaration.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/ConstructorsDeclaration.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/Else.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/Else.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/Expression.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/ExpressionArgument.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/ExpressionArgument.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/ExpressionDash.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/ExpressionDash.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/ExpressionStructure/DotExpression.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/ExpressionStructure/DotExpression.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/ExpressionStructure/ExpressionStructure.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/ExpressionStructure/IndexExpression.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/ExpressionStructure/IndexExpression.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/ExpressionStructure/OperationalExpression.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/ExpressionStructure/OperationalExpression.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/Extention.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/Extention.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/HeapDeclaration/HeapDeclaration.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/HeapDeclaration/ObjectHeap.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/HeapDeclaration/ObjectHeap.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/HeapDeclaration/PrimitiveHeap.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/HeapDeclaration/PrimitiveHeap.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/MainClass.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/MainClass.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/MethodDelcaration.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/MethodDelcaration.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/MethodsDelcaration.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/MethodsDelcaration.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/Node.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/Node.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/Source.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/Source.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/Statement/IdentifierStatement.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/Statement/IdentifierStatement.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/Statement/IfStatement.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/Statement/IfStatement.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/Statement/PrintStatement.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/Statement/PrintStatement.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/Statement/ScopeStatement.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/Statement/ScopeStatement.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/Statement/Statement.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/Statement/StatementChecker.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/Statement/StatementChecker.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/Statement/WhileStatement.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/Statement/WhileStatement.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/StatementExpression/BracketExpression.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/StatementExpression/BracketExpression.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/StatementExpression/EqualExpression.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/StatementExpression/EqualExpression.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/StatementExpression/StatementExpression.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/StatementExpression/StatementExpression.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/Statements.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/Statements.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/TerminalNode.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/TerminalNode.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/TerminalToken.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/Token.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/Type.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/Type.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/TypeIdentifier.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/TypeIdentifier.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/VarDeclaration.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/VarDeclaration.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/VarsDeclaration.class" afterPath="$PROJECT_DIR$/out/production/CFGParcer/Parser/NonTerminals/VarsDeclaration.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/Main.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/Main.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/AdditionalTypeIdentifiers.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/ArrayBrackets.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/ArrayBrackets.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/ClassDeclaration.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/ClassDeclaration.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/ClassMembers/ClassMembers.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/ClassMembers/IdentifierMember.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/ClassMembers/IdentifierMember.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/ClassesDeclaration.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/ClassesDeclaration.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/ConstructorDeclaration.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/ConstructorDeclaration.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/ConstructorsDeclaration.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/ConstructorsDeclaration.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Else.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Else.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Expression/Expression.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Expression/Expression.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/ExpressionArgument.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/ExpressionArgument.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/ExpressionDash.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/ExpressionDash.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/ExpressionStructure/DotExpression.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/ExpressionStructure/DotExpression.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/ExpressionStructure/ExpressionStructureChecker.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/ExpressionStructure/ExpressionStructureChecker.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/ExpressionStructure/OperationalExpression.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/ExpressionStructure/OperationalExpression.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Extention.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Extention.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/HeapDeclaration/ObjectHeap.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/HeapDeclaration/ObjectHeap.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/MethodDelcaration.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/MethodDelcaration.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/MethodsDelcaration.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/MethodsDelcaration.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Node.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Node.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/NodeWithLamda.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Source.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Source.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Statement/IdentifierStatement.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Statement/IdentifierStatement.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Statement/IfStatement.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Statement/IfStatement.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Statement/PrintStatement.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Statement/PrintStatement.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Statement/ScopeStatement.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Statement/ScopeStatement.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Statement/WhileStatement.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Statement/WhileStatement.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/StatementExpression/BracketExpression.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/StatementExpression/BracketExpression.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/StatementExpression/EqualExpression.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/StatementExpression/EqualExpression.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/StatementExpression/StatementExpression.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Statements.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Statements.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/TerminalNode.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/TerminalNode.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Type.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Type.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/TypeIdentifier.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/TypeIdentifier.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/VarDeclaration.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/VarDeclaration.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/VarsDeclaration.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/VarsDeclaration.class" />
+      <change beforePath="$PROJECT_DIR$/output.txt" afterPath="$PROJECT_DIR$/output.txt" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/Main.java" afterPath="$PROJECT_DIR$/src/Parser/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/AdditionalTypeIdentifiers.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/ArrayBrackets.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/ArrayBrackets.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/ClassDeclaration.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/ClassDeclaration.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/ClassMembers/ClassMembers.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/ClassMembers/IdentifierMember.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/ClassMembers/IdentifierMember.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/ClassesDeclaration.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/ClassesDeclaration.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/ConstructorDeclaration.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/ConstructorDeclaration.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/ConstructorsDeclaration.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/ConstructorsDeclaration.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/Else.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/Else.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/Expression/Expression.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/Expression/Expression.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionArgument.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionArgument.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionDash.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionDash.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/DotExpression.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/DotExpression.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/ExpressionStructureChecker.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/ExpressionStructureChecker.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/OperationalExpression.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/OperationalExpression.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/Extention.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/Extention.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/HeapDeclaration/ObjectHeap.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/HeapDeclaration/ObjectHeap.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/MethodDelcaration.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/MethodDelcaration.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/MethodsDelcaration.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/MethodsDelcaration.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/Node.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/Node.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/NodeWithLamda.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/Source.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/Source.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/IdentifierStatement.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/IdentifierStatement.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/IfStatement.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/IfStatement.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/PrintStatement.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/PrintStatement.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/ScopeStatement.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/ScopeStatement.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/WhileStatement.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/WhileStatement.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/StatementExpression/BracketExpression.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/StatementExpression/BracketExpression.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/StatementExpression/EqualExpression.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/StatementExpression/EqualExpression.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/StatementExpression/StatementExpression.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/Statements.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/Statements.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/TerminalNode.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/TerminalNode.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/Type.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/Type.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/TypeIdentifier.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/TypeIdentifier.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/VarDeclaration.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/VarDeclaration.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/VarsDeclaration.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/VarsDeclaration.java" />
+      <change beforePath="$PROJECT_DIR$/testcase.txt" afterPath="$PROJECT_DIR$/testcase.txt" />
+      <change beforePath="$PROJECT_DIR$/text.txt" afterPath="$PROJECT_DIR$/text.txt" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,11 +156,9 @@
       <file leaf-file-name="Source.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Source.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-              <folding>
-                <marker date="1524689859544" expanded="true" signature="1069:1076" ph="{...}" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -33,27 +167,17 @@
         <entry file="file://$PROJECT_DIR$/src/Parser/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
-              <caret line="73" column="5" lean-forward="false" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+              <caret line="80" column="5" lean-forward="false" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="output.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="output.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/output.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-36">
-              <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9733">
-              <caret line="309" column="54" lean-forward="true" selection-start-line="309" selection-start-column="54" selection-end-line="309" selection-end-column="54" />
+            <state relative-caret-position="252">
+              <caret line="46" column="10" lean-forward="false" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -63,12 +187,12 @@
         <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Node.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-193">
-              <caret line="63" column="9" lean-forward="false" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+              <caret line="74" column="9" lean-forward="false" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
               <folding>
-                <element signature="e#1826#1827#0" expanded="true" />
-                <element signature="e#1860#1861#0" expanded="true" />
-                <element signature="e#2081#2082#0" expanded="true" />
-                <element signature="e#2113#2114#0" expanded="true" />
+                <element signature="e#2373#2374#0" expanded="true" />
+                <element signature="e#2407#2408#0" expanded="true" />
+                <element signature="e#2628#2629#0" expanded="true" />
+                <element signature="e#2660#2661#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,7 +204,7 @@
             <state relative-caret-position="126">
               <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
               <folding>
-                <marker date="1524689859408" expanded="true" signature="292:293" ph="{...}" />
+                <marker date="1524689997464" expanded="true" signature="717:718" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -101,9 +225,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="179">
               <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding>
-                <marker date="1524689859424" expanded="true" signature="689:811" ph="{...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -112,7 +234,7 @@
         <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Statements.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -122,7 +244,7 @@
         <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/TerminalNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="e#152#153#0" expanded="true" />
                 <element signature="e#186#187#0" expanded="true" />
@@ -135,111 +257,14 @@
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>implements</find>
-      <find>Statement</find>
-      <find>System.out</find>
-      <find>if</find>
-      <find>&gt;</find>
-      <find>-</find>
-      <find>size</find>
-      <find>remo</find>
-      <find>statements</find>
-      <find>state</find>
-      <find>val ;</find>
-      <find>;  &amp;</find>
-      <find>;</find>
-      <find>system.out</find>
-      <find>sys</find>
-      <find>IF-</find>
-      <find>&lt; EOL &gt;: End of Line</find>
-      <find>Inte</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/Tokenizer/MyMap.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/ExpressionStructure.java" />
-        <option value="$PROJECT_DIR$/text.txt" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionDash.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Source.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Statements.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Else.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/TerminalNode.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/ExpressionStructureChecker.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Expression.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/StatementChecker.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionArgument.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/AdditionalExpressionArguments.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/OperationalExpression.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ClassMembers/IdentifierMember.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/IdentifierStatement.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/WhileStatement.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/StatementExpression/BracketExpression.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/StatementExpression/EqualExpression.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/StatementExpression/StatementExpression.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ClassMembers/ClassMembers.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/AdditionalTypeIdentifiers.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ArrayBrackets.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ClassDeclaration.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ClassesDeclaration.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ConstructorDeclaration.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ConstructorsDeclaration.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Extention.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/MethodDelcaration.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/MethodsDelcaration.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Type.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/TypeIdentifier.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/VarDeclaration.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/VarsDeclaration.java" />
-        <option value="$PROJECT_DIR$/testcase.txt" />
-        <option value="$PROJECT_DIR$/output.txt" />
-        <option value="$PROJECT_DIR$/src/Parser/Main.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/HeapDeclaration/HeapDeclarationChecker.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Expression/ExpBiginning.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/DotExpression.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/ScopeStatement.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/IfStatement.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/HeapDeclaration/ObjectHeap.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Expression/Expression.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/MainClass.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Expression/ParenthesesExpression.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/IndexExpression.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/HeapDeclaration/PrimitiveHeap.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/PrintStatement.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Node.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/NodeWithLamda.java" />
-      </list>
-    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
-    <option name="y" value="-4" />
-    <option name="width" value="920" />
-    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -296,22 +321,6 @@
       </pane>
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Tokenizer" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="Parser.NonTerminals.Expression" />
-      <recent name="Parser.NonTerminals.HeapDeclaration" />
-      <recent name="Parser.NonTerminals.ExpressionStructure" />
-      <recent name="Parser.NonTerminals" />
-    </key>
-  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -325,40 +334,19 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Parser.Main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="CFGParser" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="CFGParcer" />
-      <envs />
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -366,13 +354,67 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
     </configuration>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -381,36 +423,13 @@
     <configuration />
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="854b01de-3352-46ee-981e-fad8c30e88c5" name="Default" comment="" />
-      <created>1524447363601</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1524447363601</updated>
-      <workItem from="1524447376246" duration="5146000" />
-      <workItem from="1524470325529" duration="3080000" />
-      <workItem from="1524559365456" duration="16579000" />
-      <workItem from="1524586593246" duration="14882000" />
-      <workItem from="1524609609885" duration="12696000" />
-      <workItem from="1524650791159" duration="15123000" />
-    </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67597000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="25000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1303" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -423,7 +442,7 @@
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19521913" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19521913" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281493" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -438,48 +457,17 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Parser/NonTerminals/Node.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Parser/NonTerminals/Statement/StatementChecker.java</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="9" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/text.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="57" column="14" lean-forward="false" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/HeapDeclaration/HeapDeclaration.java" />
     <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Else.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <marker date="1524689859424" expanded="true" signature="689:811" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -503,7 +491,7 @@
     <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Statements.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -569,7 +557,7 @@
         <state relative-caret-position="126">
           <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding>
-            <marker date="1524689859408" expanded="true" signature="292:293" ph="{...}" />
+            <marker date="1524689997464" expanded="true" signature="717:718" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -665,11 +653,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Source.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <marker date="1524689859544" expanded="true" signature="1069:1076" ph="{...}" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -679,8 +665,6 @@
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#557#558#0" expanded="false" />
-            <element signature="e#596#597#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -696,15 +680,15 @@
     <entry file="file://$PROJECT_DIR$/src/Parser/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="73" column="5" lean-forward="false" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+          <caret line="80" column="5" lean-forward="false" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/output.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
-          <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+        <state relative-caret-position="252">
+          <caret line="46" column="10" lean-forward="false" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -752,7 +736,7 @@
     <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/TerminalNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="e#152#153#0" expanded="true" />
             <element signature="e#186#187#0" expanded="true" />
@@ -849,16 +833,24 @@
     <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-193">
-          <caret line="63" column="9" lean-forward="false" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+          <caret line="74" column="9" lean-forward="false" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
           <folding>
-            <element signature="e#1826#1827#0" expanded="true" />
-            <element signature="e#1860#1861#0" expanded="true" />
-            <element signature="e#2081#2082#0" expanded="true" />
-            <element signature="e#2113#2114#0" expanded="true" />
+            <element signature="e#2373#2374#0" expanded="true" />
+            <element signature="e#2407#2408#0" expanded="true" />
+            <element signature="e#2628#2629#0" expanded="true" />
+            <element signature="e#2660#2661#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/NodeWithLamda.java" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5837">
+          <caret line="1173" column="14" lean-forward="false" selection-start-line="1173" selection-start-column="14" selection-end-line="1173" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

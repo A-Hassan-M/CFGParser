@@ -1,20 +1,20 @@
 package Parser.NonTerminals.StatementExpression;
 
+import Parser.NonTerminals.Expression.Expression;
+import Parser.NonTerminals.ExpressionStructure.IndexExpression;
 import Parser.NonTerminals.Node;
+import Parser.NonTerminals.TerminalNode;
 
 import java.util.ArrayList;
 
-//TODO::Implement this class
-public class EqualExpression extends StatementExpression {
+public class EqualExpression extends Node {
 
-    @Override
-    public String getValue() {
-        return null;
-    }
-
-    @Override
-    public int matches(ArrayList<Node> tokens) {
-        return 0;
+    public EqualExpression(){
+        value = "";
+        classTokens = new ArrayList<>();
+        classTokens.add(new TerminalNode("< ASSIGNMENT >","="));
+        classTokens.add(new Expression());
+        classTokens.add(new TerminalNode("< SEMICOLON >",";"));
     }
 
 }

@@ -69,7 +69,14 @@ public class Main {
         }
 
         Source source = new Source();
-        source.matches(tokens);
-        System.out.println(source.getValue());
+        if(source.matches(tokens) == 0){
+            System.out.println("Syntax error");
+        }else {
+            try {
+                System.out.println(source.getValue());
+            }catch (Exception e){
+                System.out.println("Syntax error");
+            }
+        }
     }
 }

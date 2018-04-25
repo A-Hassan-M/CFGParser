@@ -4,14 +4,12 @@ import java.util.ArrayList;
 
 //TODO::Implement this class
 public class Extention extends Node{
-    @Override
-    public String getValue() {
-        return null;
-    }
 
-    @Override
-    public int matches(ArrayList<Node> tokens) {
-        return 0;
-    }
-
+	public Extention(boolean takesLamda) {
+        this.takesLamda = takesLamda;
+        classTokens  =  new ArrayList<>();
+		classTokens.add(new TerminalNode("< EXTENDS >", "extends"));
+		classTokens.add(new TerminalNode("< ID >","x"));
+	}
+	
 }

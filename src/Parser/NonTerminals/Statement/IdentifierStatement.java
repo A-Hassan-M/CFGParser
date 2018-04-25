@@ -1,20 +1,19 @@
 package Parser.NonTerminals.Statement;
 
 import Parser.NonTerminals.Node;
+import Parser.NonTerminals.StatementExpression.StatementExpressionChecker;
+import Parser.NonTerminals.TerminalNode;
 
 import java.util.ArrayList;
 
-//TODO::Implement this class
 public class IdentifierStatement extends Node {
 
-    @Override
-    public String getValue() {
-        return null;
-    }
+    public IdentifierStatement(){
+        value = "";
+        classTokens = new ArrayList<>();
+        classTokens.add(new TerminalNode("< ID >","id"));
+        classTokens.add(new StatementExpressionChecker());
 
-    @Override
-    public int matches(ArrayList<Node> tokens) {
-        return 0;
     }
 
 }
