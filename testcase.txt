@@ -1,1 +1,1 @@
-class hmada { public static void main(String[] args){ if(a==b) System.out.println(a==b); }}
+class hmada { public static void main(String[] args){if(new int[5]) {System.out.println(a==b)};}}

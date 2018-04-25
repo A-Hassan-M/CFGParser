@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class ExpBiginning extends Node {
 
-    String[] terminals = {"< INTEGER_LITERAL >",
+    String[] terminals = {"< INTEGRAL_LITERAL >",
                           "< FLOAT_LITERAL >", "< TRUE >","< FALSE >","< ID >","< THIS >"};
 
     public ExpBiginning(){

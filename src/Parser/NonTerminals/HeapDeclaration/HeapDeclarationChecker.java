@@ -7,6 +7,10 @@ public class HeapDeclarationChecker extends Node {
 
     String[] terminals = {"< INT >"," < FLOAT >", "< STRING >","< CHAR >","< BOOLEAN >"};
 
+    public HeapDeclarationChecker(){
+        value = "";
+    }
+
 
     @Override
     public String getValue() {
@@ -21,6 +25,7 @@ public class HeapDeclarationChecker extends Node {
         for(String terminal:terminals){
             if(firstToken.getType().equals(terminal)){
                 var = new PrimitiveHeap(firstToken);
+                break;
             }
         }
         if(var == null && firstToken.getType().equals("< ID >"))

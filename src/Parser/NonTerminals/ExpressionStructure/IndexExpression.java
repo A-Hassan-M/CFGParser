@@ -17,11 +17,6 @@ public class IndexExpression extends Node {
     }
 
     @Override
-    public String getValue() {
-        return null;
-    }
-
-    @Override
     public int matches(ArrayList<Node> tokens) {
         int i= 0;
         while(!(tokens.isEmpty()) && i<classTokens.size()){

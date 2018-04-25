@@ -3,6 +3,8 @@ package Parser;
 import Parser.NonTerminals.Node;
 import Parser.NonTerminals.Source;
 import Parser.NonTerminals.TerminalNode;
+import Tokenizer.MyMap;
+import Tokenizer.Regexer;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -32,7 +34,6 @@ public class Main {
 //                out = new PrintStream(new FileOutputStream("output.txt"));
 //                System.setOut(out);
 //            } catch (FileNotFoundException e) {
-//                // TODO Auto-generated catch block
 //                e.printStackTrace();
 //            }
 //            Regexer regexer = new Regexer(data);
