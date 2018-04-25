@@ -1,20 +1,20 @@
 package Parser.NonTerminals.Statement;
 
+import Parser.NonTerminals.Expression.ParenthesesExpression;
 import Parser.NonTerminals.Node;
+import Parser.NonTerminals.StatementExpression.StatementExpressionChecker;
+import Parser.NonTerminals.TerminalNode;
 
 import java.util.ArrayList;
 
-//TODO::Implement this class
 public class WhileStatement extends Node {
 
-    @Override
-    public String getValue() {
-        return null;
-    }
-
-    @Override
-    public int matches(ArrayList<Node> tokens) {
-        return 0;
+    public WhileStatement(){
+        value = "";
+        classTokens = new ArrayList<>();
+        classTokens.add(new TerminalNode("< WHILE >","while"));
+        classTokens.add(new ParenthesesExpression());
+        classTokens.add(new StatementChecker());
     }
 
 }

@@ -7,14 +7,17 @@ public abstract class Node {
     protected String value;
     protected ArrayList<Node> classTokens;
     protected int tabs;
+    public boolean takesLamda;
 
     public Node(String type, String value){
         this.type = type;
         this.value= value;
+        takesLamda = false;
         tabs = 0;
     }
 
     public Node() {
+        takesLamda = false;
         tabs = 0;
     }
 
@@ -51,16 +54,21 @@ public abstract class Node {
 
     /**
      * @param tokens tokens that extracted from tokenizer
-     * @return 1 if matched with all classTokens, 0 if not matched
+     * if matched == -1 this means the classToken didn't match the passed tokens but as it takes lamda it can be removed
+     * @return 1 if matched with all classTokens, 0 if not matched or -1 if the class takes lamda
      */
     public int matches(ArrayList<Node> tokens){
         int i= 0;
         while(!(tokens.isEmpty()) && i<classTokens.size()){
             int matched = classTokens.get(i).matches(tokens);
-            if(matched==0){
-                return 0;
+            if(matched == -1){
+                // this means this token takes lamda and thus we remove it from the classTokens
+                classTokens.remove(i);
+            }else if(matched==0){
+                return (takesLamda?-1:0);
+            }else{
+                i++;
             }
-            i++;
         }
         return 1;
     }

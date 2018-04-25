@@ -4,13 +4,18 @@ import java.util.ArrayList;
 
 //TODO::Implement this class
 public class ClassDeclaration extends Node{
-    @Override
-    public String getValue() {
-        return null;
-    }
-
-    @Override
-    public int matches(ArrayList<Node> tokens) {
-        return 0;
-    }
+    
+	public ClassDeclaration() {
+		//�class�  Identifier  Extends`  �{�  VarDeclaration`   ConstructorDeclaration`  MethodDeclaration` �}�
+		classTokens = new ArrayList<>();
+		classTokens.add(new TerminalNode("< CLASS >", "class") );
+		classTokens.add(new TerminalNode("< ID >", "x"));
+		classTokens.add(new Extention(true));
+        classTokens.add(new TerminalNode("< LEFT_CURLY_B >","{"));
+        classTokens.add(new VarsDeclaration());
+        classTokens.add(new ConstructorsDeclaration());
+        classTokens.add(new MethodsDelcaration());
+        classTokens.add(new TerminalNode("< RIGHT_CURLY_B >","}"));
+        
+	}
 }

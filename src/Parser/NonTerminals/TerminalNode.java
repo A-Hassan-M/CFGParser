@@ -15,6 +15,7 @@ public class TerminalNode extends Node {
 
     @Override
     public int matches(ArrayList<Node> tokens) {
+        String s = tokens.get(0).type;
         if(this.type.equals(tokens.get(0).type)){
             this.value = tokens.get(0).value;
             tokens.remove(0);
