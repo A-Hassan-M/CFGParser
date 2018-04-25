@@ -1,25 +1,23 @@
-package Parser.NonTerminals.ExpressionStructure;
+package Parser.NonTerminals.Expression;
 
-import Parser.NonTerminals.Expression.Expression;
+import Parser.NonTerminals.ExpressionDash;
 import Parser.NonTerminals.Node;
-import Parser.NonTerminals.TerminalNode;
-import Parser.NonTerminals.Token;
 
 import java.util.ArrayList;
 
-public class IndexExpression extends Node {
+public class Expression extends Node {
 
-    public IndexExpression(){
+    public Expression(){
         value = "";
         classTokens = new ArrayList<>();
-        classTokens.add(new TerminalNode("< LEFT_SQUARE_B >","["));
-        classTokens.add(new Expression());
-        classTokens.add(new TerminalNode("< RIGHT_SQUARE_B >","]"));
+        classTokens.add(new ExpBiginning());
+        classTokens.add(new ExpressionDash());
     }
+
 
     @Override
     public String getValue() {
-        return null;
+        return super.getValue();
     }
 
     @Override
@@ -29,9 +27,13 @@ public class IndexExpression extends Node {
             int matched = classTokens.get(i).matches(tokens);
             if(matched==0){
                 return 0;
+            }else if(matched == -1){
+                classTokens.remove(i);
+            }else {
+                i++;
             }
-            i++;
         }
         return 1;
     }
+
 }

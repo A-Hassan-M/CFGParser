@@ -5,7 +5,7 @@ import Parser.NonTerminals.Token;
 
 import java.util.ArrayList;
 
-public class DotExpression extends ExpressionStructure {
+public class DotExpression extends Node {
 
     @Override
     public String getValue() {

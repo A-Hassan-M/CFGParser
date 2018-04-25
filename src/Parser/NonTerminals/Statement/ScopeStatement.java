@@ -1,50 +1,25 @@
 package Parser.NonTerminals.Statement;
 
-import Parser.NonTerminals.Expression;
 import Parser.NonTerminals.Node;
+import Parser.NonTerminals.Statements;
 import Parser.NonTerminals.TerminalNode;
 
 import java.util.ArrayList;
 
 public class ScopeStatement extends Node {
 
-    ArrayList<Node> classTokens;
 
     public ScopeStatement(){
         value = "";
         classTokens = new ArrayList<>();
         classTokens.add(new TerminalNode("< LEFT_CURLY_B >","{"));
+        classTokens.add(new Statements());
         classTokens.add(new TerminalNode("< RIGHT_CURLY_B >","}"));
     }
 
     @Override
     public String getValue() {
-        int n = tabs;
-        boolean newStatement = false;
-        for(Node classToken:classTokens){
-            String val = classToken.getValue();
-            if(val.equals("} ")){
-                value += "\n";
-                newStatement = true;
-                n--;
-            }
-            if(newStatement){
-                for(int i =0;i<n;i++){
-                    value += "\t";
-                }
-                newStatement = false;
-            }
-            value += val;
-            if(val.equals("{ ")){
-                value += "\n";
-                newStatement = true;
-                n++;
-            }else if(val.equals("; ")){
-                value += "\n";
-                newStatement = true;
-            }
-
-        }
+        value+= super.getValue();
         return value;
     }
 
@@ -59,10 +34,13 @@ public class ScopeStatement extends Node {
             int matched = classTokens.get(i).matches(tokens);
             if(matched==0){
                 return 0;
+            }else if (matched == -1){
+                classTokens.remove(i);
+            }else {
+                i++;
             }
-            i++;
         }
-        return classTokens.size();
+        return 1;
     }
 
 }

@@ -2,23 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="854b01de-3352-46ee-981e-fad8c30e88c5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tokenizer/MyMap.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tokenizer/Regexer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Tokenizer/Tag.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/Expression/ExpBiginning.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/Expression/Expression.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/Expression/ParenthesesExpression.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/ExpressionStructureChecker.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/HeapDeclaration/HeapDeclarationChecker.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/Main.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/Main.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Else.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Else.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Expression.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/ExpressionDash.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/ExpressionDash.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/ExpressionStructure/DotExpression.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/ExpressionStructure/DotExpression.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/ExpressionStructure/ExpressionStructure.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/ExpressionStructure/IndexExpression.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/ExpressionStructure/IndexExpression.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/ExpressionStructure/OperationalExpression.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/ExpressionStructure/OperationalExpression.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/MainClass.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/MainClass.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Node.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Node.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Source.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Source.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Statement/IfStatement.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Statement/IfStatement.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Statement/PrintStatement.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Statement/PrintStatement.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Statement/ScopeStatement.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Statement/ScopeStatement.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Statement/StatementChecker.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Statement/StatementChecker.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Statements.class" afterPath="$PROJECT_DIR$/out/production/CFGParser/Parser/NonTerminals/Statements.class" />
+      <change beforePath="$PROJECT_DIR$/output.txt" afterPath="$PROJECT_DIR$/output.txt" />
       <change beforePath="$PROJECT_DIR$/src/Parser/Main.java" afterPath="$PROJECT_DIR$/src/Parser/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/Expression.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/Expression.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/AdditionalExpressionArguments.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/AdditionalExpressionArguments.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/Else.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/Else.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/Expression.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionArgument.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionArgument.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionDash.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionDash.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/DotExpression.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/DotExpression.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/ExpressionStructure.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/IndexExpression.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/IndexExpression.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/OperationalExpression.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/OperationalExpression.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/HeapDeclaration/HeapDeclaration.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/HeapDeclaration/ObjectHeap.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/HeapDeclaration/ObjectHeap.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/HeapDeclaration/PrimitiveHeap.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/HeapDeclaration/PrimitiveHeap.java" />
       <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/MainClass.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/MainClass.java" />
       <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/Node.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/Node.java" />
       <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/Source.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/Source.java" />
-      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/IdentifierStatement.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/IdentifierStatement.java" />
       <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/IfStatement.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/IfStatement.java" />
       <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/PrintStatement.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/PrintStatement.java" />
       <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/ScopeStatement.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/ScopeStatement.java" />
-      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/Statement.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/StatementChecker.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/StatementChecker.java" />
-      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/WhileStatement.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/WhileStatement.java" />
-      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/TerminalNode.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/TerminalNode.java" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/NonTerminals/Statements.java" afterPath="$PROJECT_DIR$/src/Parser/NonTerminals/Statements.java" />
+      <change beforePath="$PROJECT_DIR$/testcase.txt" afterPath="$PROJECT_DIR$/testcase.txt" />
+      <change beforePath="$PROJECT_DIR$/text.txt" afterPath="$PROJECT_DIR$/text.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,23 +57,44 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/CFGParcer$Main.coverage" NAME="Main Coverage Results" MODIFIED="1524659109442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Source.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Source.java">
+      <file leaf-file-name="Expression.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Expression/Expression.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-              <folding />
+            <state relative-caret-position="216">
+              <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/MainClass.java">
+      <file leaf-file-name="OperationalExpression.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/OperationalExpression.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="51" column="18" lean-forward="false" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+            <state relative-caret-position="253">
+              <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Parser/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="48" column="58" lean-forward="false" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,54 +102,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TerminalNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/TerminalNode.java">
+      <file leaf-file-name="output.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-              <folding>
-                <element signature="e#152#153#0" expanded="true" />
-                <element signature="e#186#187#0" expanded="true" />
-                <element signature="e#232#233#0" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Expression.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Expression.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            <state relative-caret-position="368">
+              <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ScopeStatement.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Statement/ScopeStatement.java">
+      <file leaf-file-name="TerminalNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/TerminalNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+            <state relative-caret-position="144">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
-                <element signature="e#1343#1344#0" expanded="true" />
-                <element signature="e#1375#1376#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Node.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-              <folding>
-                <element signature="e#308#309#0" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#152#153#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,10 +129,64 @@
       <file leaf-file-name="StatementChecker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Statement/StatementChecker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="134">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParenthesesExpression.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Expression/ParenthesesExpression.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-28">
+              <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExpressionDash.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionDash.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExpressionStructureChecker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/ExpressionStructureChecker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="21" column="56" lean-forward="false" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+              <folding>
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#1434#1435#0" expanded="true" />
+                <element signature="e#1689#1690#0" expanded="true" />
+                <element signature="e#1721#1722#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -130,6 +205,20 @@
     <findStrings>
       <find>implements</find>
       <find>Statement</find>
+      <find>System.out</find>
+      <find>if</find>
+      <find>&gt;</find>
+      <find>-</find>
+      <find>size</find>
+      <find>remo</find>
+      <find>statements</find>
+      <find>state</find>
+      <find>val ;</find>
+      <find>;  &amp;</find>
+      <find>;</find>
+      <find>system.out</find>
+      <find>sys</find>
+      <find>IF-</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -143,57 +232,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ClassMembers.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/HeapDeclaration.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ClassMembers/ConstructorDeclaration.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ClassMembers/Predefined.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Token.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/TerminalToken.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ClassMembers/IdentifierMember.java" />
         <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ClassMembers/ClassMembers.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/ExpressionStructure.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/DotExpression.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/IndexExpression.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/OperationalExpression.java" />
         <option value="$PROJECT_DIR$/src/Parser/NonTerminals/HeapDeclaration/HeapDeclaration.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/HeapDeclaration/ObjectHeap.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/HeapDeclaration/PrimitiveHeap.java" />
         <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/IdentifierStatement.java" />
         <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/Statement.java" />
         <option value="$PROJECT_DIR$/src/Parser/NonTerminals/StatementExpression/StatementExpression.java" />
         <option value="$PROJECT_DIR$/src/Parser/NonTerminals/StatementExpression/EqualExpression.java" />
         <option value="$PROJECT_DIR$/src/Parser/NonTerminals/StatementExpression/BracketExpression.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/AdditionalExpressionArguments.java" />
         <option value="$PROJECT_DIR$/src/Parser/NonTerminals/AdditionalTypeIdentifiers.java" />
         <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ArrayBrackets.java" />
         <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ClassDeclaration.java" />
         <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ClassesDeclaration.java" />
         <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ConstructorDeclaration.java" />
         <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ConstructorsDeclaration.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Else.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionArgument.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionDash.java" />
         <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Extention.java" />
         <option value="$PROJECT_DIR$/src/Parser/NonTerminals/MethodDelcaration.java" />
         <option value="$PROJECT_DIR$/src/Parser/NonTerminals/MethodsDelcaration.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Statements.java" />
         <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Type.java" />
         <option value="$PROJECT_DIR$/src/Parser/NonTerminals/TypeIdentifier.java" />
         <option value="$PROJECT_DIR$/src/Parser/NonTerminals/VarDeclaration.java" />
         <option value="$PROJECT_DIR$/src/Parser/NonTerminals/VarsDeclaration.java" />
         <option value="$PROJECT_DIR$/src/Tokenizer/MyMap.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/PrintStatement.java" />
         <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/WhileStatement.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/IfStatement.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/TerminalNode.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Expression.java" />
-        <option value="$PROJECT_DIR$/src/Parser/Main.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Source.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Node.java" />
-        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/StatementChecker.java" />
         <option value="$PROJECT_DIR$/src/Parser/NonTerminals/MainClass.java" />
+        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/ExpressionStructure.java" />
+        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/DotExpression.java" />
+        <option value="$PROJECT_DIR$/testcase.txt" />
+        <option value="$PROJECT_DIR$/text.txt" />
+        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionDash.java" />
+        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Source.java" />
+        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Statements.java" />
+        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/PrintStatement.java" />
+        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Else.java" />
+        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/TerminalNode.java" />
         <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/ScopeStatement.java" />
+        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/ExpressionStructureChecker.java" />
+        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Expression.java" />
+        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Expression/ParenthesesExpression.java" />
+        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/HeapDeclaration/HeapDeclarationChecker.java" />
+        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/IfStatement.java" />
+        <option value="$PROJECT_DIR$/output.txt" />
+        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Statement/StatementChecker.java" />
+        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Expression/ExpBiginning.java" />
+        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionArgument.java" />
+        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/AdditionalExpressionArguments.java" />
+        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/HeapDeclaration/ObjectHeap.java" />
+        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/HeapDeclaration/PrimitiveHeap.java" />
+        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/IndexExpression.java" />
+        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Expression/Expression.java" />
+        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/Node.java" />
+        <option value="$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/OperationalExpression.java" />
+        <option value="$PROJECT_DIR$/src/Parser/Main.java" />
       </list>
     </option>
   </component>
@@ -225,6 +314,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -256,6 +348,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Parser" type="462c0819:PsiDirectoryNode" />
               <item name="NonTerminals" type="462c0819:PsiDirectoryNode" />
+              <item name="Expression" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CFGParcer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CFGParcer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Parser" type="462c0819:PsiDirectoryNode" />
+              <item name="NonTerminals" type="462c0819:PsiDirectoryNode" />
+              <item name="HeapDeclaration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CFGParcer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CFGParcer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Parser" type="462c0819:PsiDirectoryNode" />
+              <item name="NonTerminals" type="462c0819:PsiDirectoryNode" />
               <item name="Statement" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -268,9 +376,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -283,6 +388,9 @@
       <recent name="$PROJECT_DIR$/src/Tokenizer" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Parser.NonTerminals.Expression" />
+      <recent name="Parser.NonTerminals.HeapDeclaration" />
+      <recent name="Parser.NonTerminals.ExpressionStructure" />
       <recent name="Parser.NonTerminals" />
     </key>
   </component>
@@ -364,66 +472,44 @@
       <workItem from="1524447376246" duration="5146000" />
       <workItem from="1524470325529" duration="3080000" />
       <workItem from="1524559365456" duration="16579000" />
-      <workItem from="1524586593246" duration="14715000" />
+      <workItem from="1524586593246" duration="14882000" />
+      <workItem from="1524609609885" duration="12696000" />
+      <workItem from="1524650791159" duration="9532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39520000" />
+    <option name="totallyTimeSpent" value="61915000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <frame x="65" y="-4" width="1303" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281493" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18884462" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19521913" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39968896" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12350598" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -432,189 +518,30 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Parser/NonTerminals/Source.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/OperationalExpression.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Statement/StatementChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/ClassMembers/Predefined.java" />
-    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Token.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/TerminalToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-          <folding>
-            <element signature="e#126#127#0" expanded="false" />
-            <element signature="e#177#178#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/ClassMembers/ClassMembers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/ClassMembers/IdentifierMember.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/DotExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/IndexExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/OperationalExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/HeapDeclaration/HeapDeclaration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/HeapDeclaration/ObjectHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/HeapDeclaration/PrimitiveHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/StatementExpression/StatementExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/StatementExpression/EqualExpression.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/StatementExpression/BracketExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/AdditionalExpressionArguments.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="50" lean-forward="false" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-          <folding>
-            <element signature="e#250#251#0" expanded="false" />
-            <element signature="e#274#275#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -622,10 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="e#246#247#0" expanded="false" />
-            <element signature="e#270#271#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -633,21 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#234#235#0" expanded="false" />
-            <element signature="e#258#259#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/ClassDeclaration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#237#238#0" expanded="false" />
-            <element signature="e#261#262#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -655,10 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#239#240#0" expanded="false" />
-            <element signature="e#263#264#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -666,10 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#243#244#0" expanded="false" />
-            <element signature="e#267#268#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -677,32 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#244#245#0" expanded="false" />
-            <element signature="e#268#269#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionArgument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#239#240#0" expanded="false" />
-            <element signature="e#263#264#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionDash.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#235#236#0" expanded="false" />
-            <element signature="e#259#260#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -710,10 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#230#231#0" expanded="false" />
-            <element signature="e#254#255#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -721,10 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#238#239#0" expanded="false" />
-            <element signature="e#262#263#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -732,21 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#239#240#0" expanded="false" />
-            <element signature="e#263#264#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Statements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#231#232#0" expanded="false" />
-            <element signature="e#255#256#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -754,10 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#225#226#0" expanded="false" />
-            <element signature="e#249#250#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -765,10 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#235#236#0" expanded="false" />
-            <element signature="e#259#260#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -776,10 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#236#237#0" expanded="false" />
-            <element signature="e#260#261#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -787,10 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#237#238#0" expanded="false" />
-            <element signature="e#261#262#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -802,18 +637,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tokenizer/Pattern_Matcher.java">
+    <entry file="file://$PROJECT_DIR$/src/Tokenizer/Pattern_Matcher.java" />
+    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Statement/Statement.java" />
+    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Statement/WhileStatement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="51" column="9" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="51" selection-end-column="9" />
+        <state relative-caret-position="108">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Statement/Statement.java">
+    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/ExpressionStructure.java" />
+    <entry file="file://$PROJECT_DIR$/testcase.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="88" lean-forward="false" selection-start-line="0" selection-start-column="88" selection-end-line="0" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="57" column="14" lean-forward="false" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/ClassDeclaration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/DotExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/HeapDeclaration/HeapDeclaration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -826,112 +696,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/ExpressionStructure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Statement/PrintStatement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        <state relative-caret-position="285">
+          <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Statement/WhileStatement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Else.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Expression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Statement/IfStatement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="35" column="38" lean-forward="true" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/TerminalNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding>
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding>
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Statement/StatementChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="51" column="18" lean-forward="false" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+        <state relative-caret-position="-198">
+          <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -940,11 +716,258 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Statement/ScopeStatement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        <state relative-caret-position="144">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding>
-            <element signature="e#1343#1344#0" expanded="true" />
-            <element signature="e#1375#1376#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Else.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/StatementExpression/BracketExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_161/jre/lib/rt.jar!/sun/instrument/InstrumentationImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="268" column="0" lean-forward="false" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_161/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="839" column="0" lean-forward="false" selection-start-line="839" selection-start-column="0" selection-end-line="839" selection-end-column="0" />
+          <folding>
+            <element signature="e#31039#31040#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Source.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-71">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Statement/IfStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="38" column="17" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="38" selection-end-column="17" />
+          <folding>
+            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="e#1180#1181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Statements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="37" column="17" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="37" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/AdditionalExpressionArguments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionArgument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/HeapDeclaration/ObjectHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/HeapDeclaration/HeapDeclarationChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/ExpressionStructureChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="21" column="56" lean-forward="false" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Expression/ExpBiginning.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="35" column="42" lean-forward="false" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/IndexExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/HeapDeclaration/PrimitiveHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="30" column="17" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="30" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Expression/Expression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionDash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Statement/StatementChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Expression/ParenthesesExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/TerminalNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+            <element signature="e#1689#1690#0" expanded="true" />
+            <element signature="e#1721#1722#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/NonTerminals/ExpressionStructure/OperationalExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="48" column="58" lean-forward="false" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

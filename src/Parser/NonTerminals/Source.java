@@ -24,7 +24,6 @@ public class Source extends Node {
     public int matches(ArrayList<Node> tokens) {
         ArrayList<Node> tempTokens = new ArrayList<>(tokens);
         int cond1 = mainClass.matches(tempTokens);
-        System.out.println(cond1);
         if(cond1 == 0) return 0;
 //        while(!(tempTokens.isEmpty())){
 //            ClassDeclaration tempClassDeclaration = new ClassDeclaration();

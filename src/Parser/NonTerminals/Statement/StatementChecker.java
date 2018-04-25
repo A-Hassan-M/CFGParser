@@ -10,7 +10,6 @@ public class StatementChecker extends Node {
 
     @Override
     public String getValue() {
-        System.out.println("tabs " +tabs);
         statement.setTabs(tabs);
         return statement.getValue()+"";
     }
@@ -33,6 +32,8 @@ public class StatementChecker extends Node {
             case "< ID >":
                 statement = new IdentifierStatement();
                 break;
+            default:
+                return 0;
         }
         return statement.matches(tokens);
     }
