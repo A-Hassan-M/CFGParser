@@ -23,37 +23,6 @@ public class MethodDelcaration extends Node{
 		classTokens.add(new TerminalNode("< SEMICOLON >", ";"));
 		classTokens.add(new TerminalNode("< RIGHT_CURLY_B >","}"));
 	}
-	
-    @Override
-	public int matches(ArrayList<Node> tokens){
-        int i= 0;
-        Node temp = tokens.get(0);
-        switch (temp.type) {
-		case "< PUBLIC >":
-			classTokens.add(0,new TerminalNode("< PUBLIC >","public"));
-			break;
-		case "< PRIVATE >":
-			classTokens.add(0, new TerminalNode("< PRIVATE >","private"));
-			break;
-		case "< PROTECTED >":
-			classTokens.add(0, new TerminalNode("< PROTECTED >","protected"));
-			break;
-		default:
-			return 0;
-		}
-        while(!(tokens.isEmpty()) && i<classTokens.size()){
-            int matched = classTokens.get(i).matches(tokens);
-            if(matched == -1){
-                // this means this token takes lamda and thus we remove it from the classTokens
-                classTokens.remove(i);
-            }else if(matched==0){
-                return (takesLamda?-1:0);
-            }else{
-                i++;
-            }
-        }
-        return 1;
-    }
 
 	@Override
 	public int matches(ArrayList<Node> tokens) {
