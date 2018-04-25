@@ -4,14 +4,12 @@ import java.util.ArrayList;
 
 //TODO::Implement this class
 public class Type extends Node{
-    @Override
-    public String getValue() {
-        return null;
-    }
 
-    @Override
-    public int matches(ArrayList<Node> tokens) {
-        return 0;
-    }
+	public Type() {
+		// (“int”  |  “boolean”  |  “float”  |  “String”  |  “char”)  Brackets
+		// make Switch 
+		classTokens = new ArrayList<>();
+		classTokens.add(new ArrayBrackets());
+	}
 
 }

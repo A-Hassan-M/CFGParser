@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding//src/Parser/NonTerminals/ClassesDeclaration.java=UTF-8
+encoding//src/Parser/NonTerminals/CommaTypeIdentifiers.java=UTF-8
+encoding//src/Parser/NonTerminals/ConstructorsDeclaration.java=UTF-8
+encoding//src/Parser/NonTerminals/MethodsDelcaration.java=UTF-8
+encoding//src/Parser/NonTerminals/TypeIdentifier.java=UTF-8
+encoding//src/Parser/NonTerminals/VarsDeclaration.java=UTF-8
