@@ -11,22 +11,22 @@ public class ClassesDeclaration extends Node{
 		classTokens = new ArrayList<>();
 		classTokens.add(new ClassDeclaration());
 	}
-	   @Override
-	    public int matches(ArrayList<Node> tokens) {
-	        int i= 0;
-	        while(!(tokens.isEmpty()) && i<classTokens.size()){
-	            int matched = classTokens.get(i).matches(tokens);
-	            if(matched==0){
-	                return -1;
-	            }
-	            i++;
-	        }
-	        if(!tokens.isEmpty()){
-	        	ClassesDeclaration arguments = new ClassesDeclaration();
-	            if(arguments.matches(tokens) > 0)
-	                classTokens.add(arguments);
-	        }
-	        return 1;
-	    }
+   	@Override
+	public int matches(ArrayList<Node> tokens) {
+		int i= 0;
+		while(!(tokens.isEmpty()) && i<classTokens.size()){
+			int matched = classTokens.get(i).matches(tokens);
+			if(matched==0){
+				return -1;
+			}
+			i++;
+		}
+		if(!tokens.isEmpty()){
+			ClassesDeclaration arguments = new ClassesDeclaration();
+			if(arguments.matches(tokens) > 0)
+				classTokens.add(arguments);
+		}
+		return 1;
+	}
 
 }

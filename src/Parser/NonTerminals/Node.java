@@ -70,6 +70,9 @@ public abstract class Node {
                 i++;
             }
         }
+        if(tokens.isEmpty()&&i<classTokens.size()){
+            classTokens.remove(i);
+        }
         return 1;
     }
 

@@ -6,7 +6,6 @@ import java.util.ArrayList;
 public class ClassDeclaration extends Node{
     
 	public ClassDeclaration() {
-		//�class�  Identifier  Extends`  �{�  VarDeclaration`   ConstructorDeclaration`  MethodDeclaration` �}�
 		classTokens = new ArrayList<>();
 		classTokens.add(new TerminalNode("< CLASS >", "class") );
 		classTokens.add(new TerminalNode("< ID >", "x"));
@@ -16,6 +15,5 @@ public class ClassDeclaration extends Node{
         classTokens.add(new ConstructorsDeclaration());
         classTokens.add(new MethodsDelcaration());
         classTokens.add(new TerminalNode("< RIGHT_CURLY_B >","}"));
-        
 	}
 }

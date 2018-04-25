@@ -2,14 +2,25 @@ package Parser.NonTerminals;
 
 import java.util.ArrayList;
 
-//TODO::Implement this class
 public class Type extends Node{
 
+	String[] dataTypes = {"< INT >"," < FLOAT >", "< STRING >","< CHAR >","< BOOLEAN >"};
+
 	public Type() {
-		// (“int”  |  “boolean”  |  “float”  |  “String”  |  “char”)  Brackets
-		// make Switch 
 		classTokens = new ArrayList<>();
 		classTokens.add(new ArrayBrackets());
 	}
 
+	@Override
+	public int matches(ArrayList<Node> tokens) {
+
+		Node firstToken = tokens.get(0);
+		for(String dataType:dataTypes){
+			if(firstToken.getType().equals(dataType)){
+				classTokens.add(0,firstToken);
+				break;
+			}
+		}
+		return super.matches(tokens);
+	}
 }

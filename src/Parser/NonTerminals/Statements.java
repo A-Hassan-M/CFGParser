@@ -14,11 +14,6 @@ public class Statements extends Node{
     }
 
     @Override
-    public String getValue() {
-        return super.getValue();
-    }
-
-    @Override
     public int matches(ArrayList<Node> tokens) {
         int i= 0;
         while(!(tokens.isEmpty()) && i<classTokens.size()){

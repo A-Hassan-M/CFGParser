@@ -7,6 +7,7 @@ import java.util.ArrayList;
 public class ExpressionDash extends Node{
 
     public ExpressionDash(boolean takesLamda){
+        value = "";
         this.takesLamda = takesLamda;
         classTokens = new ArrayList<>();
         classTokens.add(new ExpressionStructureChecker());
