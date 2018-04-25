@@ -1,14 +1,12 @@
 package Parser.NonTerminals.HeapDeclaration;
 
-import Parser.NonTerminals.Expression.Expression;
 import Parser.NonTerminals.ExpressionArgument;
 import Parser.NonTerminals.Node;
-import Parser.NonTerminals.NodeWithLamda;
 import Parser.NonTerminals.TerminalNode;
 
 import java.util.ArrayList;
 
-public class ObjectHeap extends NodeWithLamda {
+public class ObjectHeap extends Node {
 
 
     public ObjectHeap(){
@@ -17,7 +15,7 @@ public class ObjectHeap extends NodeWithLamda {
 
         classTokens.add(new TerminalNode("< ID >","id"));
         classTokens.add(new TerminalNode("< LEFT_ROUND_B >","("));
-        classTokens.add(new ExpressionArgument());
+        classTokens.add(new ExpressionArgument(true));
         classTokens.add(new TerminalNode("< RIGHT_ROUND_B >",")"));
     }
 

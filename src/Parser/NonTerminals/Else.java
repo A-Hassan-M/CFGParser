@@ -6,8 +6,9 @@ import java.util.ArrayList;
 
 public class Else extends Node{
 
-    public Else(){
+    public Else(boolean takesLamda){
         value = "";
+        this.takesLamda = takesLamda;
         classTokens = new ArrayList<>();
 
         classTokens.add(new TerminalNode("< ELSE >","else"));
@@ -24,7 +25,6 @@ public class Else extends Node{
         int i= 0;
         while(!(tokens.isEmpty()) && i<classTokens.size()){
             int matched = classTokens.get(i).matches(tokens);
-//            System.out.println("expression "+matched);
             if(matched==0){
                 return -1;
             }

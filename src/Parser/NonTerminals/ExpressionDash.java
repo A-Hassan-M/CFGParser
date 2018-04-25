@@ -6,11 +6,13 @@ import java.util.ArrayList;
 
 public class ExpressionDash extends Node{
 
-    public ExpressionDash(){
+    public ExpressionDash(boolean takesLamda){
         value = "";
+        this.takesLamda = takesLamda;
         classTokens = new ArrayList<>();
         classTokens.add(new ExpressionStructureChecker());
     }
+
 
     @Override
     public String getValue() {
@@ -29,7 +31,7 @@ public class ExpressionDash extends Node{
             i++;
         }
         if(!tokens.isEmpty()){
-            ExpressionDash expressionDash = new ExpressionDash();
+            ExpressionDash expressionDash = new ExpressionDash(true);
             if(expressionDash.matches(tokens) > 0)
                 classTokens.add(expressionDash);
         }
