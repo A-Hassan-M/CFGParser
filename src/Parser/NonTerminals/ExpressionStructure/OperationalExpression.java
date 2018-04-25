@@ -7,8 +7,6 @@ import java.util.ArrayList;
 
 public class OperationalExpression extends Node {
 
-    String[] operations = {"&&", "||", "==", "!=", ">", "<", "<=", ">=", "+", "-", "*", "/"};
-
     public OperationalExpression(Node node){
         value = "";
         classTokens = new ArrayList<>();

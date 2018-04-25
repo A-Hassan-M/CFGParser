@@ -13,10 +13,4 @@ public class Expression extends Node {
         classTokens.add(new ExpBiginning());
         classTokens.add(new ExpressionDash(true));
     }
-
-
-    @Override
-    public String getValue() {
-        return super.getValue();
-    }
 }
