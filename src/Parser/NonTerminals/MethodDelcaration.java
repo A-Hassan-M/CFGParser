@@ -22,7 +22,7 @@ public class MethodDelcaration extends Node{
 		classTokens.add(new TerminalNode("< RIGHT_ROUND_B >",")"));
 		classTokens.add(new TerminalNode("< LEFT_CURLY_B >","{"));
 		classTokens.add(new VarsDeclaration());
-		classTokens.add(new StatementChecker());
+		classTokens.add(new Statements(true));
 		classTokens.add(new TerminalNode("< RETURN >", "return"));
 		classTokens.add(new Expression());
 		classTokens.add(new TerminalNode("< SEMICOLON >", ";"));
