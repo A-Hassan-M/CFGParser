@@ -3,7 +3,7 @@ package Parser.NonTerminals;
 import java.util.ArrayList;
 
 //TODO::Implement this class
-public class AdditionalTypeIdentifiers extends Node{
+public class CommaTypeIdentifiers extends Node{
     @Override
     public String getValue() {
         return null;
