@@ -3,9 +3,6 @@ package Parser;
 import Parser.NonTerminals.Node;
 import Parser.NonTerminals.Source;
 import Parser.NonTerminals.TerminalNode;
-import Parser.NonTerminals.Token;
-import Tokenizer.MyMap;
-import Tokenizer.Regexer;
 
 import java.io.*;
 import java.util.ArrayList;
