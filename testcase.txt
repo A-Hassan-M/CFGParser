@@ -1,1 +1,1 @@
-class hmada { public static void main(String[] args){if(new ali(a,v,CS_IS_1)) {System.out.println(a==b);}}}
+class hmada { public static void main(String[] args){int x = 5*y;}}

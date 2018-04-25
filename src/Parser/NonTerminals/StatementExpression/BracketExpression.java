@@ -1,19 +1,18 @@
 package Parser.NonTerminals.StatementExpression;
 
+import Parser.NonTerminals.Expression.Expression;
+import Parser.NonTerminals.ExpressionStructure.IndexExpression;
 import Parser.NonTerminals.Node;
+import Parser.NonTerminals.TerminalNode;
 
 import java.util.ArrayList;
 
-//TODO::Implement this class
-public class BracketExpression extends StatementExpression {
+public class BracketExpression extends Node {
 
-    @Override
-    public String getValue() {
-        return null;
-    }
-
-    @Override
-    public int matches(ArrayList<Node> tokens) {
-        return 0;
+    public BracketExpression(){
+        value = "";
+        classTokens = new ArrayList<>();
+        classTokens.add(new IndexExpression());
+        classTokens.add(new EqualExpression());
     }
 }
