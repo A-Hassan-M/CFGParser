@@ -1,21 +1,27 @@
 package Parser.NonTerminals.ExpressionStructure;
 
+import Parser.NonTerminals.ClassMembers.IdentifierMember;
 import Parser.NonTerminals.Node;
+import Parser.NonTerminals.TerminalNode;
 
 import java.util.ArrayList;
 
 public class DotExpression extends Node {
 
     // TODO::Create constructor and initialize classTokens with the class tokens in the word file
-    @Override
-    public String getValue() {
-        return null;
+    public DotExpression(){
+        value = "";
+        classTokens = new ArrayList<>();
+        classTokens.add(new TerminalNode("< DOT >","."));
     }
 
-    //TODO::Implement the matching method
-    //TODO: Note that if there's an nullable class(can take lamda) you return -1 in that class match method
     @Override
     public int matches(ArrayList<Node> tokens) {
-        return 0;
+        if(tokens.get(1).getType().equals("< LENGTH >")){
+            classTokens.add(new TerminalNode("< LENGTH >","length"));
+        }else {
+            classTokens.add(new IdentifierMember());
+        }
+        return super.matches(tokens);
     }
 }

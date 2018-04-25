@@ -1,1 +1,1 @@
-class hmada { public static void main(String[] args){while(a==b) {if(a==10){x = 5*y;}else{ y=4;}}}}
+class hmada { public static void main(String[] args){while(a==b) {if(a==10){x = 5*y;}else{ System.out.println(a.length);}}}}
