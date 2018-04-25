@@ -2,10 +2,11 @@ package Parser.NonTerminals.Expression;
 
 import Parser.NonTerminals.ExpressionDash;
 import Parser.NonTerminals.Node;
+import Parser.NonTerminals.NodeWithLamda;
 
 import java.util.ArrayList;
 
-public class Expression extends Node {
+public class Expression extends NodeWithLamda {
 
     public Expression(){
         value = "";
@@ -19,21 +20,4 @@ public class Expression extends Node {
     public String getValue() {
         return super.getValue();
     }
-
-    @Override
-    public int matches(ArrayList<Node> tokens) {
-        int i= 0;
-        while(!(tokens.isEmpty()) && i<classTokens.size()){
-            int matched = classTokens.get(i).matches(tokens);
-            if(matched==0){
-                return 0;
-            }else if(matched == -1){
-                classTokens.remove(i);
-            }else {
-                i++;
-            }
-        }
-        return 1;
-    }
-
 }

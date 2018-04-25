@@ -48,7 +48,22 @@ public abstract class Node {
         if(newStatement&&endline) value+='\n';
         return value;
     }
-    public abstract int matches(ArrayList<Node> tokens);
+
+    /**
+     * @param tokens tokens that extracted from tokenizer
+     * @return 1 if matched with all classTokens, 0 if not matched
+     */
+    public int matches(ArrayList<Node> tokens){
+        int i= 0;
+        while(!(tokens.isEmpty()) && i<classTokens.size()){
+            int matched = classTokens.get(i).matches(tokens);
+            if(matched==0){
+                return 0;
+            }
+            i++;
+        }
+        return 1;
+    }
 
     public void setValue(String value) {
         this.value = value;

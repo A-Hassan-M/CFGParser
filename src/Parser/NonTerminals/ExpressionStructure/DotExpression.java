@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public class DotExpression extends Node {
 
-    //TODO::Create constructor and initialize classTokens with the class tokens in the word file
+    // TODO::Create constructor and initialize classTokens with the class tokens in the word file
     @Override
     public String getValue() {
         return null;

@@ -24,18 +24,4 @@ public class PrintStatement extends Node {
         return value;
     }
 
-    @Override
-    public int matches(ArrayList<Node> tokens) {
-        int i= 0;
-        while(!(tokens.isEmpty()) && i<classTokens.size()){
-            int matched = classTokens.get(i).matches(tokens);
-//            System.out.println("expression "+matched);
-            if(matched==0){
-                return 0;
-            }
-            i++;
-        }
-        return 1;
-    }
-
 }

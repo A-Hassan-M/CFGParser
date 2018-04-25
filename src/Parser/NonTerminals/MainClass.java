@@ -37,17 +37,4 @@ public class MainClass extends Node{
     *       }
     * }
     * */
-
-    @Override
-    public int matches(ArrayList<Node> tokens) {
-        int i= 0;
-        while(!(tokens.isEmpty()) && i<classTokens.size()){
-            int matched = classTokens.get(i).matches(tokens);
-            if(matched==0){
-                return 0;
-            }
-            i++;
-        }
-        return 1;
-    }
 }

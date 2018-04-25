@@ -15,17 +15,4 @@ public class IndexExpression extends Node {
         classTokens.add(new Expression());
         classTokens.add(new TerminalNode("< RIGHT_SQUARE_B >","]"));
     }
-
-    @Override
-    public int matches(ArrayList<Node> tokens) {
-        int i= 0;
-        while(!(tokens.isEmpty()) && i<classTokens.size()){
-            int matched = classTokens.get(i).matches(tokens);
-            if(matched==0){
-                return 0;
-            }
-            i++;
-        }
-        return 1;
-    }
 }
