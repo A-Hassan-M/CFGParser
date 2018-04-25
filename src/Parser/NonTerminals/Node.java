@@ -54,6 +54,7 @@ public abstract class Node {
 
     /**
      * @param tokens tokens that extracted from tokenizer
+     * if matched == -1 this means the classToken didn't match the passed tokens but as it takes lamda it can be removed
      * @return 1 if matched with all classTokens, 0 if not matched or -1 if the class takes lamda
      */
     public int matches(ArrayList<Node> tokens){

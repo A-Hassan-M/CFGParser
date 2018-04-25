@@ -3,14 +3,14 @@ package Parser.NonTerminals;
 import java.util.ArrayList;
 
 //TODO::Implement this class
-public class ClassDeclaration extends NodeWithLamda{
+public class ClassDeclaration extends Node{
     
 	public ClassDeclaration() {
-		//“class”  Identifier  Extends`  “{“  VarDeclaration`   ConstructorDeclaration`  MethodDeclaration` “}”
+		//ï¿½classï¿½  Identifier  Extends`  ï¿½{ï¿½  VarDeclaration`   ConstructorDeclaration`  MethodDeclaration` ï¿½}ï¿½
 		classTokens = new ArrayList<>();
 		classTokens.add(new TerminalNode("< CLASS >", "class") );
 		classTokens.add(new TerminalNode("< ID >", "x"));
-		classTokens.add(new Extention());
+		classTokens.add(new Extention(true));
         classTokens.add(new TerminalNode("< LEFT_CURLY_B >","{"));
         classTokens.add(new VarsDeclaration());
         classTokens.add(new ConstructorsDeclaration());
