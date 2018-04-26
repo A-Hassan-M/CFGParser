@@ -151,8 +151,7 @@ public class Regexer {
 		String error;
 		while (s.hasNext()) {
 			error = s.next();
-			System.out.println("Syntax Error near " + error + " " + data2.indexOf(error));
-		}		
+		}
 	}
 
 	private void checkTokens() {
@@ -160,7 +159,6 @@ public class Regexer {
 		MyMap validToken = maps.get(0);
 		int i = 1;
 		for (MyMap myMap : maps) {
-			System.err.println(myMap.toString());
 		}
 		while (i < maps.size()) {
 			if (maps.get(i).start < validToken.end /*&& maps.get(i).end <= validToken.end*/) {

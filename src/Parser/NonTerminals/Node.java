@@ -8,6 +8,7 @@ public abstract class Node {
     protected ArrayList<Node> classTokens;
     protected int tabs;
     public boolean takesLamda;
+    int i =0;
 
     public Node(String type, String value){
         this.type = type;
@@ -17,6 +18,7 @@ public abstract class Node {
     }
 
     public Node() {
+        value = "";
         takesLamda = false;
         tabs = 0;
     }
@@ -58,7 +60,7 @@ public abstract class Node {
      * @return 1 if matched with all classTokens, 0 if not matched or -1 if the class takes lamda
      */
     public int matches(ArrayList<Node> tokens){
-        int i= 0;
+        i= 0;
         while(!(tokens.isEmpty()) && i<classTokens.size()){
             int matched = classTokens.get(i).matches(tokens);
             if(matched == -1){
@@ -69,9 +71,6 @@ public abstract class Node {
             }else{
                 i++;
             }
-        }
-        if(tokens.isEmpty()&&i<classTokens.size()){
-            classTokens.remove(i);
         }
         return 1;
     }
