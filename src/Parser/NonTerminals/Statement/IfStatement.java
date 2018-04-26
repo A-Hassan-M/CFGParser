@@ -19,7 +19,7 @@ public class IfStatement extends Node {
         classTokens.add(new TerminalNode("< IF >","if"));
         classTokens.add(new ParenthesesExpression());
         classTokens.add(new StatementChecker());
-        classTokens.add(new Else(true));
+        classTokens.add(new Else());
     }
 
     public void setType(String type) {

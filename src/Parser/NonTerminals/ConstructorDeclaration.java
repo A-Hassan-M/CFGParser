@@ -15,7 +15,7 @@ public class ConstructorDeclaration extends Node{
 		classTokens.add(new TerminalNode("< RIGHT_ROUND_B >",")"));
 		classTokens.add(new TerminalNode("< LEFT_CURLY_B >","{"));
 		classTokens.add(new VarsDeclaration());
-		classTokens.add(new Statements(true));
+		classTokens.add(new Statements());
         classTokens.add(new TerminalNode("< RIGHT_CURLY_B >","}"));
 	}
 

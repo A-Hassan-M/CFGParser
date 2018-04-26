@@ -70,6 +70,7 @@ public class Main {
                 if(type.equals("< EOL >"))continue;
                 tokens.add(new TerminalNode(type,value));
             }
+            tokens.add(new TerminalNode("< EOF >",""));
             br.close();
         } catch (IOException e) {
             e.printStackTrace();

@@ -16,14 +16,7 @@ public class CommaTypeIdentifiers extends Node{
 	
     @Override
     public int matches(ArrayList<Node> tokens) {
-        int i= 0;
-        while(!(tokens.isEmpty()) && i<classTokens.size()){
-            int matched = classTokens.get(i).matches(tokens);
-            if(matched==0){
-                return -1;
-            }
-            i++;
-        }
+        super.matches(tokens);
         if(!tokens.isEmpty()){
         	CommaTypeIdentifiers arguments = new CommaTypeIdentifiers();
             if(arguments.matches(tokens) > 0) // may be -1 not only 0

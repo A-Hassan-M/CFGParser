@@ -16,20 +16,12 @@ public class ExpressionDash extends Node{
 
     @Override
     public int matches(ArrayList<Node> tokens) {
-        int i= 0;
-        while(!(tokens.isEmpty()) && i<classTokens.size()){
-            int matched = classTokens.get(i).matches(tokens);
-//            System.out.println("expression dash "+matched);
-            if(matched==0){
-                return -1;
-            }
-            i++;
-        }
-        if(!tokens.isEmpty()){
+        int matched = super.matches(tokens);
+        if(!tokens.isEmpty()&&matched>0){
             ExpressionDash expressionDash = new ExpressionDash(true);
             if(expressionDash.matches(tokens) > 0)
                 classTokens.add(expressionDash);
-        }
-        return 1;
+            return 1;
+        }else return matched;
     }
 }

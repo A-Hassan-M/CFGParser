@@ -16,14 +16,7 @@ public class AdditionalExpressionArguments extends Node{
 
     @Override
     public int matches(ArrayList<Node> tokens) {
-        int i= 0;
-        while(!(tokens.isEmpty()) && i<classTokens.size()){
-            int matched = classTokens.get(i).matches(tokens);
-            if(matched==0){
-                return -1;
-            }
-            i++;
-        }
+        super.matches(tokens);
         if(!tokens.isEmpty()){
             AdditionalExpressionArguments arguments = new AdditionalExpressionArguments();
             if(arguments.matches(tokens) > 0)

@@ -13,7 +13,7 @@ public class ScopeStatement extends Node {
         value = "";
         classTokens = new ArrayList<>();
         classTokens.add(new TerminalNode("< LEFT_CURLY_B >","{"));
-        classTokens.add(new Statements(true));
+        classTokens.add(new Statements());
         classTokens.add(new TerminalNode("< RIGHT_CURLY_B >","}"));
     }
 

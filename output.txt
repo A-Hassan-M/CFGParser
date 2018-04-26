@@ -49,8 +49,9 @@
 < RIGHT_CURLY_B >: }
 < RIGHT_CURLY_B >: }
 < RIGHT_CURLY_B >: }
+< EOL >: End of Line
 < CLASS >: class 
-< ID >: class1
+< ID >: class2
 < LEFT_CURLY_B >: {
 < INT >: int
 < ID >: value
@@ -106,8 +107,17 @@
 < ID >: a
 < SEMICOLON >: ;
 < RIGHT_CURLY_B >: }
-< EOL >: End of Line
-< PUBLIC >: public 
+< RIGHT_CURLY_B >: }
+< CLASS >: class 
+< ID >: class2
+< LEFT_CURLY_B >: {
+< INT >: int
+< ID >: value
+< SEMICOLON >: ;
+< STRING >: String
+< ID >: text
+< SEMICOLON >: ;
+< PRIVATE >: private 
 < STRING >: String
 < ID >: print
 < LEFT_ROUND_B >: (
@@ -123,7 +133,24 @@
 < SEMICOLON >: ;
 < RIGHT_CURLY_B >: }
 < EOL >: End of Line
+< EOL >: End of Line
 < PRIVATE >: private 
+< STRING >: String
+< ID >: print
+< LEFT_ROUND_B >: (
+< RIGHT_ROUND_B >: )
+< LEFT_CURLY_B >: {
+< SYSTEM.OUT.PRINTLN >: System.out.println
+< LEFT_ROUND_B >: (
+< INTEGRAL_LITERAL >: 5
+< RIGHT_ROUND_B >: )
+< SEMICOLON >: ;
+< RETURN >: return 
+< ID >: a
+< SEMICOLON >: ;
+< RIGHT_CURLY_B >: }
+< EOL >: End of Line
+< PROTECTED >: protected 
 < STRING >: String
 < ID >: print
 < LEFT_ROUND_B >: (

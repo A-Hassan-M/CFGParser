@@ -14,20 +14,13 @@ public class MethodsDelcaration extends Node{
 	
     @Override
     public int matches(ArrayList<Node> tokens) {
-        int i= 0;
-        while(!(tokens.isEmpty()) && i<classTokens.size()){
-            int matched = classTokens.get(i).matches(tokens);
-            if(matched==0){
-                return -1;
-            }
-            i++;
-        }
-        if(!tokens.isEmpty()){
+        int matched = super.matches(tokens);
+        if(!tokens.isEmpty()&&matched>0){
         	MethodsDelcaration arguments = new MethodsDelcaration();
             if(arguments.matches(tokens) > 0) // may be -1 not only 0
                 classTokens.add(arguments);
-        }
-        return 1;
+            return 1;
+        }else return matched;
     }
 
 }
