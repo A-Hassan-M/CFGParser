@@ -10,7 +10,7 @@ public class Type extends Node{
 	}
 
 	@Override
-	public int matches(ArrayList<Node> tokens) {
+	public int matches(ArrayList<Node> tokens, boolean takesLamda) {
 
 		Node firstToken = tokens.get(0);
 		switch (firstToken.type) {
@@ -32,6 +32,6 @@ public class Type extends Node{
 			default:
 				return 0;
 		}
-		return super.matches(tokens);
+		return super.matches(tokens, takesLamda);
 	}
 }

@@ -3,7 +3,6 @@ package Parser.NonTerminals;
 import java.util.ArrayList;
 
 import Parser.NonTerminals.Expression.Expression;
-import Parser.NonTerminals.Statement.StatementChecker;
 
 //TODO::Implement this class
 public class MethodDelcaration extends Node{
@@ -25,7 +24,7 @@ public class MethodDelcaration extends Node{
 	}
 
 	@Override
-	public int matches(ArrayList<Node> tokens) {
+	public int matches(ArrayList<Node> tokens, boolean takesLamda) {
 
 		Node firstToken = tokens.get(0);
 		switch (firstToken.getType()){
@@ -39,7 +38,7 @@ public class MethodDelcaration extends Node{
 				classTokens.add(0,firstToken);
 				break;
 		}
-		return super.matches(tokens);
+		return super.matches(tokens, takesLamda);
 	}
 
 }

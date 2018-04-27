@@ -1,7 +1,6 @@
 package Parser.NonTerminals.StatementExpression;
 
 import Parser.NonTerminals.Node;
-import Parser.NonTerminals.Statement.*;
 
 import java.util.ArrayList;
 
@@ -20,7 +19,7 @@ public class StatementExpressionChecker extends Node {
     }
 
     @Override
-    public int matches(ArrayList<Node> tokens) {
+    public int matches(ArrayList<Node> tokens, boolean takesLamda) {
         switch (tokens.get(0).getType()) {
             case "< LEFT_SQUARE_B >":
                 statement = new BracketExpression();
@@ -31,6 +30,6 @@ public class StatementExpressionChecker extends Node {
             default:
                 return 0;
         }
-        return statement.matches(tokens);
+        return statement.matches(tokens, takesLamda);
     }
 }

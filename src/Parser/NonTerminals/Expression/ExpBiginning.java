@@ -20,7 +20,7 @@ public class ExpBiginning extends Node {
     }
 
     @Override
-    public int matches(ArrayList<Node> tokens) {
+    public int matches(ArrayList<Node> tokens, boolean takesLamda) {
         Node firstToken = tokens.get(0);
         Node expBeginning;
         for (String terminal : terminals) {
@@ -46,7 +46,7 @@ public class ExpBiginning extends Node {
                 break;
             default: return 0;
         }
-        int matched = expBeginning.matches(tokens);
+        int matched = expBeginning.matches(tokens, takesLamda);
         if(matched >= 0)
             this.value += expBeginning.getValue();
         return matched;

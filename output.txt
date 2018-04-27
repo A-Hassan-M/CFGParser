@@ -88,7 +88,6 @@
 < ID >: num_aux
 < SEMICOLON >: ;
 < EOL >: End of Line
-< EOL >: End of Line
 < RIGHT_CURLY_B >: }
 < EOL >: End of Line
 < RIGHT_CURLY_B >: }

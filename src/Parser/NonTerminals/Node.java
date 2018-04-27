@@ -1,5 +1,8 @@
 package Parser.NonTerminals;
 
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.io.StringWriter;
 import java.util.ArrayList;
 
 public abstract class Node {
@@ -8,17 +11,22 @@ public abstract class Node {
     protected ArrayList<Node> classTokens;
     protected int tabs;
     public boolean takesLamda;
+    public boolean parentTakesLamda;
+    public static PrintWriter errorsFile;
+    public static StringWriter sr;
     int i =0;
 
     public Node(String type, String value){
         this.type = type;
         this.value= value;
         takesLamda = false;
+        parentTakesLamda = false;
         tabs = 0;
     }
 
     public Node() {
         value = "";
+        parentTakesLamda = false;
         takesLamda = false;
         tabs = 0;
     }
@@ -57,21 +65,32 @@ public abstract class Node {
     /**
      * @param tokens tokens that extracted from tokenizer
      * if matched == -1 this means the classToken didn't match the passed tokens but as it takes lamda it can be removed
+     * @param takesLamda
      * @return 1 if matched with all classTokens, 0 if not matched or -1 if the class takes lamda
      */
-    public int matches(ArrayList<Node> tokens){
+    public int matches(ArrayList<Node> tokens, boolean takesLamda){
         i= 0;
+        ArrayList<Node> tempTokens = new ArrayList<>(tokens);
         while(!(tokens.isEmpty()) && i<classTokens.size()){
-            int matched = classTokens.get(i).matches(tokens);
+            int matched = classTokens.get(i).matches(tempTokens, takesLamda);
             if(matched == -1){
                 // this means this token takes lamda and thus we remove it from the classTokens
                 classTokens.remove(i);
             }else if(matched==0){
-                return (takesLamda?-1:0);
+                return (this.takesLamda ?-1:0);
             }else{
+                errorsFile.flush();
+                errorsFile.close();
+                try {
+                    errorsFile = new PrintWriter("errors.txt");
+                } catch (FileNotFoundException e) {
+                    e.printStackTrace();
+                }
                 i++;
             }
         }
+        tokens.clear();
+        tokens.addAll(tempTokens);
         return 1;
     }
 

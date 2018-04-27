@@ -2,7 +2,6 @@ package Parser;
 
 import Parser.NonTerminals.Node;
 import Parser.NonTerminals.Source;
-import Parser.NonTerminals.Statement.PrintStatement;
 import Parser.NonTerminals.TerminalNode;
 import Tokenizer.MyMap;
 import Tokenizer.Regexer;
@@ -77,8 +76,13 @@ public class Main {
         }
 
         Source source = new Source();
-        if(source.matches(tokens) == 0){
-            System.out.println("Syntax error");
+        try {
+            source.errorsFile = new PrintWriter("errors.txt");
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        if(source.matches(tokens, false) == 0){
+            System.out.println("Syntax error see the errors file for more info");
         }else {
             try {
                 System.out.println(source.getValue());
@@ -86,5 +90,6 @@ public class Main {
                 System.out.println("Syntax error");
             }
         }
+        source.errorsFile.close();
     }
 }

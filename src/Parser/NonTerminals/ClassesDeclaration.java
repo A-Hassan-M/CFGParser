@@ -12,11 +12,11 @@ public class ClassesDeclaration extends Node{
 		classTokens.add(new ClassDeclaration());
 	}
    	@Override
-	public int matches(ArrayList<Node> tokens) {
-		int matched = super.matches(tokens);
+	public int matches(ArrayList<Node> tokens, boolean takesLamda) {
+		int matched = super.matches(tokens, takesLamda);
 		if(!tokens.isEmpty()&&matched>0){
 			ClassesDeclaration arguments = new ClassesDeclaration();
-			if(arguments.matches(tokens) > 0)
+			if(arguments.matches(tokens, takesLamda) > 0)
 				classTokens.add(arguments);
 			return 1;
 		}else return matched;

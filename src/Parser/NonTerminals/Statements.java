@@ -14,11 +14,11 @@ public class Statements extends Node{
     }
 
     @Override
-    public int matches(ArrayList<Node> tokens) {
-        int matched = super.matches(tokens);
+    public int matches(ArrayList<Node> tokens, boolean takesLamda) {
+        int matched = super.matches(tokens, takesLamda);
         if(!tokens.isEmpty()&&matched>0){
             Statements statements = new Statements();
-            if(statements.matches(tokens) > 0)
+            if(statements.matches(tokens, takesLamda) > 0)
                 classTokens.add(statements);
             return 1;
         }else return matched;

@@ -21,8 +21,4 @@ public class IfStatement extends Node {
         classTokens.add(new StatementChecker());
         classTokens.add(new Else());
     }
-
-    public void setType(String type) {
-        this.type = type;
-    }
 }

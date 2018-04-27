@@ -15,7 +15,7 @@ public class StatementChecker extends Node {
     }
 
     @Override
-    public int matches(ArrayList<Node> tokens) {
+    public int matches(ArrayList<Node> tokens, boolean takesLamda) {
         switch (tokens.get(0).getType()) {
             case "< LEFT_CURLY_B >":
                 statement = new ScopeStatement();
@@ -35,6 +35,6 @@ public class StatementChecker extends Node {
             default:
                 return 0;
         }
-        return statement.matches(tokens);
+        return statement.matches(tokens, takesLamda);
     }
 }

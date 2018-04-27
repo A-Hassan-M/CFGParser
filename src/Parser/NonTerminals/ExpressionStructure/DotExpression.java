@@ -16,12 +16,12 @@ public class DotExpression extends Node {
     }
 
     @Override
-    public int matches(ArrayList<Node> tokens) {
+    public int matches(ArrayList<Node> tokens, boolean takesLamda) {
         if(tokens.get(1).getType().equals("< LENGTH >")){
             classTokens.add(new TerminalNode("< LENGTH >","length"));
         }else {
             classTokens.add(new IdentifierMember());
         }
-        return super.matches(tokens);
+        return super.matches(tokens, takesLamda);
     }
 }

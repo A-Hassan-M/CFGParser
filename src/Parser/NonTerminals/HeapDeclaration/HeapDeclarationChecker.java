@@ -18,7 +18,7 @@ public class HeapDeclarationChecker extends Node {
     }
 
     @Override
-    public int matches(ArrayList<Node> tokens) {
+    public int matches(ArrayList<Node> tokens, boolean takesLamda) {
         Node firstToken = tokens.get(0);
         Node var = null;
         int matched;
@@ -31,7 +31,7 @@ public class HeapDeclarationChecker extends Node {
         if(var == null && firstToken.getType().equals("< ID >"))
             var = new ObjectHeap();
         try {
-            matched = var.matches(tokens);
+            matched = var.matches(tokens, takesLamda);
         }catch (NullPointerException e){
             return 0;
         }

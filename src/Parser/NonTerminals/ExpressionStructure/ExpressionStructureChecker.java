@@ -1,7 +1,6 @@
 package Parser.NonTerminals.ExpressionStructure;
 
 import Parser.NonTerminals.Node;
-import Parser.NonTerminals.Statement.*;
 
 import java.util.ArrayList;
 
@@ -17,7 +16,7 @@ public class ExpressionStructureChecker extends Node {
     }
 
     @Override
-    public int matches(ArrayList<Node> tokens) {
+    public int matches(ArrayList<Node> tokens, boolean takesLamda) {
         int matched = checkOperation(tokens.get(0));
         if(matched > 0 )
             expressionStructure = new OperationalExpression(tokens.get(0));
@@ -33,7 +32,7 @@ public class ExpressionStructureChecker extends Node {
                     return 0;
             }
         }
-        return expressionStructure.matches(tokens);
+        return expressionStructure.matches(tokens, takesLamda);
     }
     private int checkOperation(Node firstToken) {
         for(String operation:operations){

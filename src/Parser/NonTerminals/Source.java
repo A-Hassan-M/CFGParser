@@ -9,7 +9,7 @@ public class Source extends Node {
         classTokens = new ArrayList<>();
         classTokens.add(new MainClass());
         classTokens.add(new ClassesDeclaration());
-        classTokens.add(new TerminalNode("< EOF >",""));
+        classTokens.add(new TerminalNode("< EOF >","end of file"));
     }
 
 //    @Override
