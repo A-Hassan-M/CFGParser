@@ -15,7 +15,7 @@ public class ObjectHeap extends Node {
 
         classTokens.add(new TerminalNode("< ID >","id"));
         classTokens.add(new TerminalNode("< LEFT_ROUND_B >","("));
-        classTokens.add(new ExpressionArgument(true));
+        classTokens.add(new ExpressionArgument());
         classTokens.add(new TerminalNode("< RIGHT_ROUND_B >",")"));
     }
 

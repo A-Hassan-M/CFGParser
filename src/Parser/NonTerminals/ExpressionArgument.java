@@ -6,9 +6,9 @@ import java.util.ArrayList;
 
 public class ExpressionArgument extends Node{
 
-    public ExpressionArgument(boolean takesLamda){
+    public ExpressionArgument(){
         value = "";
-        this.takesLamda = takesLamda;
+        takesLamda = true;
         classTokens = new ArrayList<>();
 
         classTokens.add(new Expression());

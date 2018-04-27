@@ -1,6 +1,7 @@
 < CLASS >: class 
-< ID >: hmada
+< ID >: Factorial
 < LEFT_CURLY_B >: {
+< EOL >: End of Line
 < PUBLIC >: public 
 < STATIC >: static 
 < VOID >: void 
@@ -9,161 +10,86 @@
 < STRING >: String
 < LEFT_SQUARE_B >: [
 < RIGHT_SQUARE_B >: ]
-< ID >: args
+< ID >: a
 < RIGHT_ROUND_B >: )
 < LEFT_CURLY_B >: {
 < EOL >: End of Line
-< WHILE >: while
+< SYSTEM.OUT.PRINTLN >: System.out.println
 < LEFT_ROUND_B >: (
-< ID >: a
-< EQUAL >: ==
-< ID >: b
+< NEW >: new 
+< ID >: Fac
+< LEFT_ROUND_B >: (
 < RIGHT_ROUND_B >: )
-< LEFT_CURLY_B >: {
-< IF >: if
+< DOT >: .
+< ID >: ComputeFac
 < LEFT_ROUND_B >: (
-< ID >: a
-< EQUAL >: ==
 < INTEGRAL_LITERAL >: 10
 < RIGHT_ROUND_B >: )
+< RIGHT_ROUND_B >: )
+< SEMICOLON >: ;
+< EOL >: End of Line
+< RIGHT_CURLY_B >: }
+< EOL >: End of Line
+< RIGHT_CURLY_B >: }
+< EOL >: End of Line
+< CLASS >: class 
+< ID >: Fac
 < LEFT_CURLY_B >: {
-< ID >: x
+< EOL >: End of Line
+< PUBLIC >: public 
+< INT >: int
+< ID >: ComputeFac
+< LEFT_ROUND_B >: (
+< INT >: int
+< ID >: num
+< RIGHT_ROUND_B >: )
+< LEFT_CURLY_B >: {
+< EOL >: End of Line
+< INT >: int
+< ID >: num_aux
+< SEMICOLON >: ;
+< EOL >: End of Line
+< IF >: if
+< LEFT_ROUND_B >: (
+< ID >: num
+< LESSTHAN >: <
+< INTEGRAL_LITERAL >: 1
+< RIGHT_ROUND_B >: )
+< LEFT_CURLY_B >: {
+< EOL >: End of Line
+< ID >: num_aux
 < ASSIGNMENT >: =
-< INTEGRAL_LITERAL >: 5
-< MULTIPLY >: *
-< ID >: y
+< INTEGRAL_LITERAL >: 1
 < SEMICOLON >: ;
-< EOL >: End of Line
 < RIGHT_CURLY_B >: }
+< EOL >: End of Line
 < ELSE >: else
-< EOL >: End of Line
 < LEFT_CURLY_B >: {
-< SYSTEM.OUT.PRINTLN >: System.out.println
+< EOL >: End of Line
+< ID >: num_aux
+< ASSIGNMENT >: =
+< ID >: num
+< MULTIPLY >: *
 < LEFT_ROUND_B >: (
-< ID >: a
+< THIS >: this
 < DOT >: .
-< LENGTH >: length
+< ID >: ComputeFac
+< LEFT_ROUND_B >: (
+< ID >: num
+< MINUS >: -
+< INTEGRAL_LITERAL >: 1
+< RIGHT_ROUND_B >: )
 < RIGHT_ROUND_B >: )
 < SEMICOLON >: ;
-< RIGHT_CURLY_B >: }
-< RIGHT_CURLY_B >: }
-< RIGHT_CURLY_B >: }
+< EOL >: End of Line
 < RIGHT_CURLY_B >: }
 < EOL >: End of Line
-< CLASS >: class 
-< ID >: class2
-< LEFT_CURLY_B >: {
-< INT >: int
-< ID >: value
-< SEMICOLON >: ;
-< STRING >: String
-< ID >: text
-< SEMICOLON >: ;
-< PRIVATE >: private 
-< STRING >: String
-< ID >: print
-< LEFT_ROUND_B >: (
-< RIGHT_ROUND_B >: )
-< LEFT_CURLY_B >: {
-< SYSTEM.OUT.PRINTLN >: System.out.println
-< LEFT_ROUND_B >: (
-< INTEGRAL_LITERAL >: 5
-< RIGHT_ROUND_B >: )
-< SEMICOLON >: ;
 < RETURN >: return 
-< ID >: a
+< ID >: num_aux
 < SEMICOLON >: ;
-< RIGHT_CURLY_B >: }
 < EOL >: End of Line
 < EOL >: End of Line
-< PRIVATE >: private 
-< STRING >: String
-< ID >: print
-< LEFT_ROUND_B >: (
-< RIGHT_ROUND_B >: )
-< LEFT_CURLY_B >: {
-< SYSTEM.OUT.PRINTLN >: System.out.println
-< LEFT_ROUND_B >: (
-< INTEGRAL_LITERAL >: 5
-< RIGHT_ROUND_B >: )
-< SEMICOLON >: ;
-< RETURN >: return 
-< ID >: a
-< SEMICOLON >: ;
 < RIGHT_CURLY_B >: }
 < EOL >: End of Line
-< PROTECTED >: protected 
-< STRING >: String
-< ID >: print
-< LEFT_ROUND_B >: (
-< RIGHT_ROUND_B >: )
-< LEFT_CURLY_B >: {
-< SYSTEM.OUT.PRINTLN >: System.out.println
-< LEFT_ROUND_B >: (
-< INTEGRAL_LITERAL >: 5
-< RIGHT_ROUND_B >: )
-< SEMICOLON >: ;
-< RETURN >: return 
-< ID >: a
-< SEMICOLON >: ;
-< RIGHT_CURLY_B >: }
-< RIGHT_CURLY_B >: }
-< CLASS >: class 
-< ID >: class2
-< LEFT_CURLY_B >: {
-< INT >: int
-< ID >: value
-< SEMICOLON >: ;
-< STRING >: String
-< ID >: text
-< SEMICOLON >: ;
-< PRIVATE >: private 
-< STRING >: String
-< ID >: print
-< LEFT_ROUND_B >: (
-< RIGHT_ROUND_B >: )
-< LEFT_CURLY_B >: {
-< SYSTEM.OUT.PRINTLN >: System.out.println
-< LEFT_ROUND_B >: (
-< INTEGRAL_LITERAL >: 5
-< RIGHT_ROUND_B >: )
-< SEMICOLON >: ;
-< RETURN >: return 
-< ID >: a
-< SEMICOLON >: ;
-< RIGHT_CURLY_B >: }
-< EOL >: End of Line
-< EOL >: End of Line
-< PRIVATE >: private 
-< STRING >: String
-< ID >: print
-< LEFT_ROUND_B >: (
-< RIGHT_ROUND_B >: )
-< LEFT_CURLY_B >: {
-< SYSTEM.OUT.PRINTLN >: System.out.println
-< LEFT_ROUND_B >: (
-< INTEGRAL_LITERAL >: 5
-< RIGHT_ROUND_B >: )
-< SEMICOLON >: ;
-< RETURN >: return 
-< ID >: a
-< SEMICOLON >: ;
-< RIGHT_CURLY_B >: }
-< EOL >: End of Line
-< PROTECTED >: protected 
-< STRING >: String
-< ID >: print
-< LEFT_ROUND_B >: (
-< RIGHT_ROUND_B >: )
-< LEFT_CURLY_B >: {
-< SYSTEM.OUT.PRINTLN >: System.out.println
-< LEFT_ROUND_B >: (
-< INTEGRAL_LITERAL >: 5
-< RIGHT_ROUND_B >: )
-< SEMICOLON >: ;
-< RETURN >: return 
-< ID >: a
-< SEMICOLON >: ;
-< RIGHT_CURLY_B >: }
 < RIGHT_CURLY_B >: }
 < EOL >: End of Line
