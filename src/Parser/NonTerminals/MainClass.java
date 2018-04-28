@@ -24,7 +24,7 @@ public class MainClass extends Node{
         classTokens.add(new TerminalNode("< ID >","id"));
         classTokens.add(new TerminalNode("< RIGHT_ROUND_B >",")"));
         classTokens.add(new TerminalNode("< LEFT_CURLY_B >","{"));
-        classTokens.add(new StatementChecker());
+        classTokens.add(new Statements());
         classTokens.add(new TerminalNode("< RIGHT_CURLY_B >","}"));
         classTokens.add(new TerminalNode("< RIGHT_CURLY_B >","}"));
     }

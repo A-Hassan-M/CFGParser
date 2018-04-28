@@ -22,7 +22,7 @@ public class ExpressionStructureChecker extends Node {
             expressionStructure = new OperationalExpression(tokens.get(0));
         else {
             switch (tokens.get(0).getType()) {
-                case "< LEFT_CURLY_B >":
+                case "< LEFT_SQUARE_B >":
                     expressionStructure = new IndexExpression();
                     break;
                 case "< DOT >":

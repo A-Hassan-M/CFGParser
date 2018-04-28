@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class HeapDeclarationChecker extends Node {
 
-    String[] terminals = {"< INT >"," < FLOAT >", "< STRING >","< CHAR >","< BOOLEAN >"};
+    String[] terminals = {"< INT >","< FLOAT >", "< STRING >","< CHAR >","< BOOLEAN >"};
 
     public HeapDeclarationChecker(){
         value = "";
@@ -35,7 +35,7 @@ public class HeapDeclarationChecker extends Node {
         }catch (NullPointerException e){
             return 0;
         }
-        if(matched >= 0)
+        if(matched > 0)
             this.value += var.getValue();
         return matched;
     }

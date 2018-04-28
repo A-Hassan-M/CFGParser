@@ -41,21 +41,23 @@ public abstract class Node {
         for(Node classToken:classTokens){
             classToken.setTabs(n);
             String val = classToken.getValue();
+
             if(newStatement){
                 if(endline) value += "\n";
-                if(val.equals("} ")) n--;
+                if(val.trim().equals("}")) n--;
+
                 for(int i =0;i<n;i++){
                     value += "\t";
                 }
                 endline = false;
                 newStatement = false;
             }
-            value += val;
-            if(val.equals("{ ") || val.equals("} ")|| val.equals("; ") || val.charAt(val.length()-1) == '\n'){
+            if(val.trim().equals("{") || val.trim().equals("}")|| val.trim().equals(";") || val.charAt(val.length()-1) == '\n'){
                 newStatement = true;
                 endline = val.charAt(val.length()-1) != '\n';
-                if(val.equals("{ ")) n++;
+                if(val.trim().equals("{")) n++;
             }
+            value += val;
 
         }
         if(newStatement&&endline) value+='\n';
